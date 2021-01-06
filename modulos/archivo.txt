@@ -1,0 +1,3 @@
+Este es un archivo que uso
+
+de ejemplo con promesas
