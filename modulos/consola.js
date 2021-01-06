@@ -22,24 +22,30 @@ var tabla2 = ['a', 'b', 'c', 'd']
 
 // console.log('Hola k ase')
 
-function funcion1() {
-    console.group('funcion 1')
-    console.log('Esto es de la funcion 1')
-    console.log('Esto es de la funcion 1')
-    console.log('Esto es de la funcion 1')
-    funcion2()
-    console.log('Volvi a la primera carajo')
-    console.groupEnd('funcion 1')
-}
+// function funcion1() {
+//     console.group('funcion 1')
+//     console.log('Esto es de la funcion 1')
+//     console.log('Esto es de la funcion 1')
+//     console.log('Esto es de la funcion 1')
+//     funcion2()
+//     console.log('Volvi a la primera carajo')
+//     console.groupEnd('funcion 1')
+// }
 
-function funcion2() {
-    console.group('funcion 2')
-    console.log('Estoy en la 2')
-    console.groupEnd('funcion 2')
-}
+// function funcion2() {
+//     console.group('funcion 2')
+//     console.log('Estoy en la 2')
+//     console.groupEnd('funcion 2')
+// }
 
-console.log('Empezamos')
-funcion1()
+// console.log('Empezamos')
+// funcion1()
 
 // -----------
 
+console.count('veces')
+console.count('veces')
+console.count('veces')
+console.countReset('veces')
+console.count('veces')
+console.count('veces')
